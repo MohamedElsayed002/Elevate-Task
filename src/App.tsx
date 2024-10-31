@@ -1,6 +1,5 @@
 import { createBrowserRouter , RouterProvider } from "react-router-dom";
 import { HomeLayout , Home , About , SingleProduct } from "./Pages";
-
 import { loader as HomeLoader } from "./Pages/Home";
 import {loader as SingleProductLoader} from './Pages/SingleProduct'
 
@@ -20,7 +19,9 @@ const router = createBrowserRouter([
 
 
 const App = () => {
-  return  <RouterProvider router={router} />
+  return <>
+     <RouterProvider router={router} />
+  </>
 }
 
 export default App 
