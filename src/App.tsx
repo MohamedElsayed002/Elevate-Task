@@ -1,5 +1,5 @@
 import { createBrowserRouter , RouterProvider } from "react-router-dom";
-import { HomeLayout , Home , About , SingleProduct } from "./Pages";
+import { HomeLayout , Error , Home , About , SingleProduct } from "./Pages";
 import { loader as HomeLoader } from "./Pages/Home";
 import {loader as SingleProductLoader} from './Pages/SingleProduct'
 
@@ -14,6 +14,10 @@ const router = createBrowserRouter([
       // Add more routes here if needed.
     ],
     errorElement : <h1>Error</h1>
+  },
+  {
+    path : "*",
+    element : <Error/>
   }
 ])
 
