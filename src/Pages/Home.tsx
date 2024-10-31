@@ -29,7 +29,7 @@ const Home = () => {
         <main className="w-4/5 mx-auto">  
             <h1>All Products</h1>
             <h2>Avilable:  {data.length}</h2>
-            <div className="grid sm:grid-cols-1 gap-x-20 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
+            <div className="grid md:grid-cols-3 gap-10">
             {
                 data.map((product) => {
                     return (
