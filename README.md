@@ -51,4 +51,10 @@ export default tseslint.config({
 
 Project Pages (HomeLayout, Home, About, SingleProduct, Error)
 
+Libraries Installed.
+``` 
+react-router-dom
+axios
+tailwindcss 
+```
 I used Loader in react-router-dom to naviagte between pages, loaders to load or fetch products, navigate to check state if it's loading 
