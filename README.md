@@ -49,7 +49,14 @@ export default tseslint.config({
 })
 ```
 
-Project Pages (HomeLayout, Home, About, SingleProduct, Error)
+Project Pages
+
+```
+Home.jsx
+About.jsx
+SingleProduct.jsx
+Error.jsx
+```
 
 Libraries Installed.
 ``` 
